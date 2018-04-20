@@ -10,22 +10,21 @@
 
     <repositories>
         <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
             <id>votuvo</id>
             <url>https://nexus.votuvo.com/repository/maven-public/</url>
         </repository>
     </repositories>
 
     <dependencies>
-        <!--Bukkit API-->
-        <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>LATEST</version>
-        </dependency>
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>LATEST</version>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.zaxxer</groupId>
